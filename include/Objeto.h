@@ -22,14 +22,12 @@ class Objeto {
 
     double getTotalLength() const;
 
-    double getCenter() const;
-
     double getBeginningX() const;
     double getEndX() const;
 
 
     //Setters 
-    void movementPosition(double newX, double newY) const;
+    void movementPosition(double newX, double newY);
 
 };
 
